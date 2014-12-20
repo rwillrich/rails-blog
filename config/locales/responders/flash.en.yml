@@ -1,0 +1,10 @@
+en:
+  flash:
+    actions:
+      create:
+        notice: "%{resource_name} was successfully created. %{undo_button}"
+      update:
+        notice: "%{resource_name} was successfully updated. %{undo_button}"
+      destroy:
+        notice: "%{resource_name} was successfully destroyed. %{undo_button}"
+        alert: "%{resource_name} could not be destroyed."

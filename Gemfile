@@ -8,6 +8,7 @@ gem 'pg', '~> 0.17.1'
 
 gem 'responders', '~> 2.0.2'
 gem 'formtastic', '~> 3.1.2'
+gem 'paper_trail', '~> 3.0.6'
 
 gem 'sass-rails', '~> 5.0.0'
 gem 'uglifier', '~> 2.6.0'
