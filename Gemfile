@@ -7,6 +7,7 @@ gem 'rails', '~> 4.2.0.rc3'
 gem 'pg', '~> 0.17.1'
 
 gem 'thin', '~> 1.6.3'
+gem 'unicorn', '~> 4.8.3'
 
 gem 'responders', '~> 2.0.2'
 gem 'formtastic', '~> 3.1.2'
@@ -21,6 +22,10 @@ gem 'dotenv-deployment', '~> 0.2.0'
 
 group :development do
   gem 'spring-commands-rspec', '~> 1.0.4'
+end
+
+group :production do
+  gem 'rails_12factor', '~> 0.0.3'
 end
 
 group :development, :test do
