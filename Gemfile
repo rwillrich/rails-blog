@@ -6,6 +6,8 @@ gem 'rails', '~> 4.2.0.rc3'
 
 gem 'pg', '~> 0.17.1'
 
+gem 'thin', '~> 1.6.3'
+
 gem 'responders', '~> 2.0.2'
 gem 'formtastic', '~> 3.1.2'
 gem 'paper_trail', '~> 3.0.6'
