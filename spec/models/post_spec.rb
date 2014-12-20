@@ -21,4 +21,9 @@ RSpec.describe Post, type: :model do
     it { is_expected.to be_invalid }
   end
 
+  context 'when :text is empty' do
+    before { subject.text = ' ' }
+    it { is_expected.to be_invalid }
+  end
+
 end

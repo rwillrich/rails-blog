@@ -8,6 +8,11 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
+    <%= render partial: 'header' %>
+
+    <%= content_tag :p, notice, class: 'alert alert-danger' if notice.present? %>
+    <%= content_tag :p, alert, class: 'alert alert-success' if alert.present? %>
+
     <%= yield %>
   </body>
 </html>

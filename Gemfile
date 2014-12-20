@@ -6,8 +6,12 @@ gem 'rails', '~> 4.2.0.rc3'
 
 gem 'pg', '~> 0.17.1'
 
+gem 'responders', '~> 2.0.2'
+gem 'formtastic', '~> 3.1.2'
+
 gem 'sass-rails', '~> 5.0.0'
 gem 'uglifier', '~> 2.6.0'
+gem 'redcarpet', '~> 3.2.2'
 
 gem 'dotenv-rails', '~> 1.0.2'
 gem 'dotenv-deployment', '~> 0.2.0'

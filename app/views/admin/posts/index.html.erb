@@ -1,0 +1,13 @@
+<h1>Posts</h1>
+
+<ul class="actions">
+  <li><%= link_to 'Create post', new_admin_post_path %></li>
+</ul>
+
+<% if @posts.any? %>
+  <ul class="posts">
+    <%= render @posts %>
+  </ul>
+<% else %>
+  <p>There is no posts. <%= link_to 'Create one', new_admin_post_path %>!</p>
+<% end %>

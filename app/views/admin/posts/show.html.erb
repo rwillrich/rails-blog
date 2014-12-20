@@ -1,0 +1,12 @@
+<h1>Post</h1>
+
+<ul class="actions">
+  <li><%= link_to 'Edit post', edit_admin_post_path(@post) %></li>
+  <li><%= button_to 'Delete post', admin_post_path, method: :delete %></li>
+</ul>
+
+<h1><%= @post.title %></h1>
+
+<%= markdown @post.summary if @post.summary.present? %>
+
+<%= markdown @post.text %>
