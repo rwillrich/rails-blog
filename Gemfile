@@ -12,8 +12,14 @@ gem 'uglifier', '~> 2.6.0'
 gem 'dotenv-rails', '~> 1.0.2'
 gem 'dotenv-deployment', '~> 0.2.0'
 
+group :development do
+  gem 'spring-commands-rspec', '~> 1.0.4'
+end
+
 group :development, :test do
   gem 'byebug', '~> 3.5.1'
   gem 'web-console', '~> 2.0.0'
   gem 'spring', '~> 1.2.0'
+  gem 'rspec-rails', '~> 3.1.0'
+  gem 'factory_girl_rails', '~> 4.5.0'
 end
