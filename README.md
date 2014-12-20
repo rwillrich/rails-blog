@@ -1,0 +1,3 @@
+# Blog
+
+Example blog application.
