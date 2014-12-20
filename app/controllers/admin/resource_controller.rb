@@ -15,7 +15,11 @@ module Admin
       end
 
       def interpolation_options
-        { undo_button: undo_button }
+        if resource.persisted?
+          { undo_button: undo_button }
+        else
+          {}
+        end
       end
 
   end
